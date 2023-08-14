@@ -33,6 +33,6 @@ class StatusFactory extends Factory
 
   public function rejected(): static
   {
-    return $this->state(fn (array $attributes) => Status::APPROVED);
+    return $this->state(fn (array $attributes) => Status::REJECTED);
   }
 }
