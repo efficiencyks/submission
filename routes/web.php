@@ -14,5 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+// Route::get('/post', function () {
+//     return '<h2>This is post page </h2>';
+// });
+Route::get('/form', function () {
+    return view('form');
+});
+
+
+
+
+
+// Route::get('/post', function () {
+//     return '<h2>This is post page </h2>';
+// });
+//return '<h1>Hello World</h1>';
